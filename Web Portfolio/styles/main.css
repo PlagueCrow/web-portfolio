@@ -1,0 +1,106 @@
+.profile_pic{
+    display: flex;
+    width   : 300px;
+    height  : 300px;
+    position: relative;
+    overflow: visible;
+    background: rgb(107,86,62);
+    background: linear-gradient(90deg, rgba(107,86,62,1) 0%, rgba(121,62,9,1) 50%, rgba(255,237,0,1) 100%);
+    border-radius: 30% 70%;
+
+}
+
+.profile_align{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: 30%;
+}
+
+.profile_center{
+    display:inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: visible;
+    border-bottom-style: solid;
+    border-bottom-width: 10%;
+    border-bottom-color: rgba(121,62,9,1);
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile span{
+    align-self: flex-end;
+}
+
+.body{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(46, 46, 46);
+    padding: 30px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    font-size: 12;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon{
+    width: 28px;
+    height: 28px;
+}
+
+.contact{
+    padding: 5px;
+    background-color: rgb(204, 197, 197);
+    border-radius: 15px 15px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(117, 114, 114);
+}
+
+.textgroup{
+    line-height: 0%;
+}
+
+.menu{
+    word-spacing: 10px;
+}
+
+.darkmode{
+    color: white;
+}
+
+.textbox{
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+    white-space: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+hr {
+    border: none;
+    height: 100px;
+}
