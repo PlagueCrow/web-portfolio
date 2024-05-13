@@ -62,25 +62,56 @@
 .name{
     font-size: 40px;
     font-weight: bold;
+    color: rgb(175, 112, 60);
 }
 
 .title{
     font-size: 30px;
     font-weight: bold;
+    color: rgb(175, 112, 60);
 }
 
 .subtitle{
     font-size: 20px;
     font-weight: bold;
-    color: rgb(117, 114, 114);
+    color: rgb(185, 180, 180);
+}
+
+.subtitle2{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(185, 180, 180);
 }
 
 .textgroup{
     line-height: 0%;
 }
 
-.menu{
+.menu{  
+    position: fixed;
     word-spacing: 10px;
+    padding: 7px;
+    background-color: rgb(158, 98, 46);
+    border-radius: 15px 15px;
+}
+
+.menu a:link{
+    color: inherit;
+    font-variant-caps: all-petite-caps;
+    text-decoration: none;
+}
+
+.menu a:visited{
+    color: inherit;
+    font-variant-caps: all-petite-caps;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    display: inline-block;
+    color: rgba(121,62,9,1);
+    font-variant-caps: all-petite-caps;
+    text-decoration: underline;
 }
 
 .darkmode{
@@ -103,4 +134,40 @@
 hr {
     border: none;
     height: 100px;
+}
+
+.hpl:link{
+    color: inherit;
+}
+
+.hpl:visited{
+    color: inherit;
+}
+
+.hpl:hover{
+    color: rgba(121,62,9,1);
+}
+
+.button{
+    color: white;
+    padding: 5px;
+    background-color: rgba(121,62,9,1);
+    background-size: 100%;
+    border-radius: 15px 15px;
+}
+
+.button:link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.button:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+.button:hover{
+    color: inherit;
+    text-decoration: none;
+    background-color: rgb(158, 98, 46);
 }
